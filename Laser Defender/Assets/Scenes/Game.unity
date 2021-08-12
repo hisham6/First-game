@@ -123,27 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &1392766069 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 17793763149073492, guid: 9b2bc00473678ec4795e55303f054360, type: 3}
-  m_PrefabInstance: {fileID: 17793763841871512}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1392766070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392766069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d5df1aa75a5c254a92f4770faf5ed04, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wayPoints:
-  - {fileID: 7339875992537686173}
-  - {fileID: 7339875992537686172}
-  - {fileID: 7339875992537686171}
 --- !u!1 &1481614333
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,6 +266,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1392766070, guid: 9b2bc00473678ec4795e55303f054360, type: 3}
+      propertyPath: wayPoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 7339875992537686173}
+    - target: {fileID: 1392766070, guid: 9b2bc00473678ec4795e55303f054360, type: 3}
+      propertyPath: wayPoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 7339875992537686172}
+    - target: {fileID: 1392766070, guid: 9b2bc00473678ec4795e55303f054360, type: 3}
+      propertyPath: wayPoints.Array.data[2]
+      value: 
+      objectReference: {fileID: 7339875992537686171}
     - target: {fileID: 17793763149073492, guid: 9b2bc00473678ec4795e55303f054360, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -297,7 +288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 17793763149073494, guid: 9b2bc00473678ec4795e55303f054360, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 5.26
       objectReference: {fileID: 0}
     - target: {fileID: 17793763149073494, guid: 9b2bc00473678ec4795e55303f054360, type: 3}
       propertyPath: m_LocalPosition.y
